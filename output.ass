@@ -1,0 +1,35 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, OutlineColour, BackColour, Bold, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,40,&HFFFFFF,&H000000,&H000000,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0,0,0,,{\move(960,520,960,340,0,800)\c&H00FFFF&\fs60\t(0,800,\c&H666666&\fs40)}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:08.00,0:00:12.00,Default,,0,0,0,,{\move(960,340,960,160,0,800)\c&H666666&\fs40}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,0,0,0,,{\move(960,880,960,700,0,800)\c&H666666&\fs40}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:08.00,0:00:12.00,Default,,0,0,0,,{\move(960,520,960,340,0,800)\c&H00FFFF&\fs60\t(0,800,\c&H666666&\fs40)}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:12.00,0:00:16.00,Default,,0,0,0,,{\move(960,340,960,160,0,800)\c&H666666&\fs40}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:00.00,0:00:04.00,Default,,0,0,0,,{\move(960,1060,960,880,0,800)\c&H666666&\fs40}When they played I'd sing along,\N每当歌声响起，我都跟着哼唱，
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0,0,0,,{\move(960,880,960,700,0,800)\c&H666666&\fs40}When they played I'd sing along,\N每当歌声响起，我都跟着哼唱，
+Dialogue: 0,0:00:08.00,0:00:12.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}When they played I'd sing along,\N每当歌声响起，我都跟着哼唱，
+Dialogue: 0,0:00:12.00,0:00:16.00,Default,,0,0,0,,{\move(960,520,960,340,0,800)\c&H00FFFF&\fs60\t(0,800,\c&H666666&\fs40)}When they played I'd sing along,\N每当歌声响起，我都跟着哼唱，
+Dialogue: 0,0:00:16.00,0:00:20.00,Default,,0,0,0,,{\move(960,340,960,160,0,800)\c&H666666&\fs40}When they played I'd sing along,\N每当歌声响起，我都跟着哼唱，
+Dialogue: 0,0:00:04.00,0:00:08.00,Default,,0,0,0,,{\move(960,1060,960,880,0,800)\c&H666666&\fs40}It make me smile.\N这时的我，心神荡漾。
+Dialogue: 0,0:00:08.00,0:00:12.00,Default,,0,0,0,,{\move(960,880,960,700,0,800)\c&H666666&\fs40}It make me smile.\N这时的我，心神荡漾。
+Dialogue: 0,0:00:12.00,0:00:16.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}It make me smile.\N这时的我，心神荡漾。
+Dialogue: 0,0:00:16.00,0:00:20.00,Default,,0,0,0,,{\move(960,520,960,340,0,800)\c&H00FFFF&\fs60\t(0,800,\c&H666666&\fs40)}It make me smile.\N这时的我，心神荡漾。
+Dialogue: 0,0:00:20.00,0:00:24.00,Default,,0,0,0,,{\move(960,340,960,160,0,800)\c&H666666&\fs40}It make me smile.\N这时的我，心神荡漾。
+Dialogue: 0,0:00:08.00,0:00:12.00,Default,,0,0,0,,{\move(960,1060,960,880,0,800)\c&H666666&\fs40}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:12.00,0:00:16.00,Default,,0,0,0,,{\move(960,880,960,700,0,800)\c&H666666&\fs40}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:16.00,0:00:20.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:20.00,0:00:24.00,Default,,0,0,0,,{\move(960,520,960,340,0,800)\c&H00FFFF&\fs60\t(0,800,\c&H666666&\fs40)}When I was young I'd listen to the radio,\N当我年少的时候，我总爱守在收音机旁。
+Dialogue: 0,0:00:12.00,0:00:16.00,Default,,0,0,0,,{\move(960,1060,960,880,0,800)\c&H666666&\fs40}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:16.00,0:00:20.00,Default,,0,0,0,,{\move(960,880,960,700,0,800)\c&H666666&\fs40}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
+Dialogue: 0,0:00:20.00,0:00:24.00,Default,,0,0,0,,{\move(960,700,960,520,0,800)\c&H666666&\fs40\t(0,800,\c&H00FFFF&\fs60)}Waiting for my favorite songs.\N等待着我最心爱的歌曲从收音机里轻轻流淌。
