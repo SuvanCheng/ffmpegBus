@@ -1,4 +1,15 @@
 # ffmpegBus
+环境准备：
+<!-- pip3 install spacy -->
+pip3 install faster-whisper
+pip3 install faster-whisper
+pip3 uninstall numpy -y
+pip3 cache purge
+pip3 install --force-reinstall numpy
+pip3 install deep-translator
+
+0. 识别并翻译为双语lrc
+python3 audio2lrc.py test.m4a
 
 1. 制作字幕
 目前
@@ -14,6 +25,11 @@ python3 genass.py test.txt
 ffmpeg -y -f lavfi -i color=c=black:s=1920x1080:r=24 -vf "subtitles=output.ass" -t 15 -c:v libx264 -pix_fmt yuv420p output.mp4
 有音轨+硬件加速 执行
 ffmpeg -y -f lavfi -i color=c=black:s=1920x1080:r=24 -i test.m4a -vf "subtitles=output.ass" -c:v h264_videotoolbox -pix_fmt yuv420p -c:a copy -shortest output.mp4
+
+ffmpeg -y -f lavfi -i color=c=black:s=1920x1080:r=15 -i test.m4a \
+-vf "subtitles=output.ass" \
+-c:v libx264 -preset veryfast -tune stillimage -crf 28 \
+-c:a copy -shortest output.mp4
 
 3. 一句命令
 python3 genass.py test.txt && ffmpeg -y -f lavfi -i color=c=black:s=1920x1080:r=24 -i test.m4a -vf "subtitles=output.ass" -c:v h264_videotoolbox -pix_fmt yuv420p -c:a copy -shortest output.mp4
